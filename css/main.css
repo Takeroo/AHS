@@ -1,0 +1,88 @@
+* {
+  margin: 0; padding: 0;
+}
+body {
+  font-size: 100%;
+}
+.accordion {
+  width: 100%;
+  margin: 20px auto;
+}
+.accordion h1, h2, h3, h4 {
+  cursor: pointer;
+}
+.accordion h2, h3, h4 {
+  font-family: "News Cycle";
+}
+.accordion h1 {
+  text-align: center;
+  padding: 20px 20px;
+  background-color: #007ac3;
+  font-family: Lobster;
+  font-size: 1.5rem;
+  font-weight: normal;
+  color: #1ab373;
+  margin: 0;
+}
+.accordion h1:hover {
+  color: #4afcdc;
+}
+.accordion h1:first-child {
+  border-radius: 10px 10px 0 0;
+}
+.accordion h1:last-of-type {
+  border-radius: 0 0 10px 10px;
+}
+.accordion h1:not(:last-of-type) {
+  border-bottom: 1px dotted #1ab373;
+}
+.accordion div, .accordion p {
+  display: none;
+}
+.accordion h2 {
+  padding: 10px 25px;
+  background-color: #1ab373;
+  font-size: 1.1rem;
+  color: #3d4449;
+  margin: 0;
+}
+.accordion h2:hover {
+  background-color: #09ab8b;
+}
+.accordion h3 {
+  padding: 8px 30px;
+  background-color: #f56a6a;
+  font-size: .9rem;
+  color: #fff; 
+  margin: 0;
+}
+.accordion h3:hover {
+  background-color: #dc5f5f;
+}
+.accordion h3 a {
+  border-bottom-color: #f56a6a;
+}
+.accordion h3 a:hover {
+  color: #fff !important;
+  border-bottom-color: #dc5f5f;
+}
+.accordion h4 {
+  padding: 5px 35px;
+  background-color: #ffc25a;
+  font-size: .9rem;
+  color: #af720a; 
+}
+.accordion h4:hover {
+  background-color: #e0b040;
+}
+.accordion p {
+  padding: 15px 35px;
+  background-color: #fff;
+  font-family: "Georgia";
+  font-size: .8rem;
+  color: #007ac3;
+  line-height: 1.3rem;
+}
+.accordion .opened-for-codepen {
+  display: block;
+}

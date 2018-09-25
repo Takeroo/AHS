@@ -1,3 +1,2 @@
-Snake Game
-
-Simple snake game developed by HTML, CSS, JQUERY
+Alberta Health Service
+imformative landing page for health services
